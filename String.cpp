@@ -1,18 +1,25 @@
-#include<iostream>
-#include<string>
+#include<bits/stdc++.h>
 using namespace std;
 
 int main()
 {
-    int x;
-    cin >> x;
-    cin.ignore();
+   string s = "Hello";
+   string  s2 = "Hello";
 
-    char  s[100];
+if (s == s2){
+    cout << "Same" << endl;
+}
 
-   cin.getline(s,100);
-    cout << x<< " "<<  s << endl;
-  
+else 
+cout << "Not Same";
+
+   
+   
+
+
+   cout << s << endl;
+
+    
 
 
     return 0;

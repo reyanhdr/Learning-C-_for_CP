@@ -1,0 +1,125 @@
+@include all headerfile using that headerfile
+   #include<bits/stdc++.h>
+
+@ output-> std :: cout << "Hello World";
+std:: cout << x << " " << c << std::endl << d << std:: endl;
+endl-> is the new line 
+if I use (using namespace std) then i have no need to write std::cout write only cout
+cout << x << " " << c < endl << d << endl; //like this 
+
+@Typecosting 
+char c;
+cout << (int)c << endl;
+output is the ascci value of c
+
+int y = 65;
+cout << (char)y << endl;
+output is the A;
+
+
+@intput-> 
+
+# varriable decler
+
+int x = 10; as like as c programming
+
+@End of File (EOF)
+
+int x;
+using while ( cin >> x){
+    cout << x << endl;
+}
+ যতটা ইনপুট দিব আউটপুট হিসাবে ততটাই for that code ;
+
+@ if else -> Teenary Operator
+ 
+ int x = 19;
+ x%2 == 0 ? cout << "Even \n " : cout << "odd \n" ;
+
+@Switch case -> Alternative of if else
+
+switch(condition)
+{
+  case :
+   statement;
+   break;
+
+  default :
+   statement;
+}
+
+@ setprecision-> Header file -> #include <iomanip>
+
+double d = 33.537653;
+cout << fixed<< setprecision(3)<< d<< endl;
+output ->  33.537 
+
+@ Using max-min function -> Header file -> #include<algorithm>
+
+২ টা সংখ্যার মধ্যে max-min বের করতে
+ cout << min(a,b) << endl;
+ cout << max(a,b) << endl;
+
+২ এর অধিক সংখ্যা হলে 
+ cout << min({a,b,c,d}) << endl;
+ cout << max ({a,b,c,d}) << endl;
+
+@ swap function -> Header file -> #include<algorithm> 
+
+swap(a,b);
+cout << a << " " << b << endl;
+output -> b a 
+
+@cin.ignore();
+that function use  for that problem
+
+    int x;
+    cin >> x;
+    char  s[100];
+    cin.getline(s,100);
+    cout << x<< " "<<  s << endl;
+
+input: 15 Hello World
+Expacted output: 15 Hello World
+output : 15
+ 
+    int x;
+    cin >> x;
+    cin.ignore();
+    char  s[100];
+    cin.getline(s,100);
+    cout << x<< " "<<  s << endl;
+
+output : 15 Hello World
+
+@Dynamic Memory
+
+int a[5];   ->   // static Array 
+int *a =  new int [5]; // Dynamic Array
+
+@class and object
+
+string decler only first line
+2nd line we  can't  insialization string
+
+if I want print full string input 
+then I should take input that way only string 
+     cin.getline (a.name, 100);
+
+For ignoring enter we should use 
+    cin.ignore();
+
+$ Constructor
+ constructor name and class name are the same 
+ and take constructor into the class 
+
+যে data Type object create করব সেই data type দিয়ে function create করব 
+
+@ Sorting-> sort(starting , ending)
+
+for ascending sorting  (a,a+n); here, a is the array and n is the number of array
+for descending sorting (a,a+n, greater<int>()); greater<int>() -> function use for descending
+
+
+
+        
